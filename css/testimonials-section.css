@@ -1,0 +1,147 @@
+.testimonials-section{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.testimonials-section h2{
+    font-style: bold;
+    font-size: 30px;
+    color: #000;
+    margin: 0;
+}
+
+
+.testimonials-decription{
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30p;
+    max-width: 500px;
+    line-height: 35px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+
+.slider{
+    height: 20px;
+    width: 100%;
+    max-width: 1140px;
+    height: auto;
+    justify-items: center;
+    align-items: center;
+}
+.slider-wraper{
+   margin: 0 20px;
+   color: #000;
+   display: flex;
+   gap: 20px;
+   margin: 20px;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   transition: transform 0.5s ease-in-out;
+}
+
+.testimonials-section-heading{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.slide-items{
+    min-width: 400px;
+    border: 1px solid #f0f0f0;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+   
+}
+
+.top-content{
+    display: flex;
+}
+
+.customer-photo{
+    margin-right: 20px
+}
+
+.customer-info{
+    margin: 0px
+}
+.customer-location{
+    margin-top: 10px;
+    margin-left: 0px
+}
+
+.rating-point{
+    margin-left: 150px
+}
+
+.customer-rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.customer-rating img {
+    margin-left: 20px;
+}
+
+.body-content{
+    text-align: left;
+}
+
+.dots{
+    display: flex;
+}
+
+.dot{
+    height: 15px;
+    width: 15px;
+    background-color: #ddd;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.action-conatiner{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.arrow-left{
+    border-radius: 50%;
+    border: 3px solid #f53838;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+
+.arrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-right{
+    border-radius: 50%;
+    background-color: #f53838;
+    padding: 20px;
+
+}
+
+@media (max-width: 390px){
+    .action-conatiner{
+        width: 390px;
+    }
+}

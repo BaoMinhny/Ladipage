@@ -1,0 +1,102 @@
+.price-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margrin: 75px auto;
+    background-color: rgb(251, 251, 251);
+    padding: 50px 0;
+}
+
+.price-section-title{
+    font-size: 40px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+
+.pricing-section-decription{
+    max-width: 600px;
+    font-size: 14px;
+    margin: 20px 0 50px;
+    color: #000;
+    line-height: 35px;
+    font-family: Rubik, sans-serif;
+    color: rgb(79, 86, 101);
+}
+
+.pricing-section-info_card-wapper{
+    display: flex;  
+    justify-content: center;
+    max-width: 1100px;
+    height: 760px;
+    color: #000;
+}
+
+.pricing-section-info-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 335px;
+    border: 2px solid #d3d3d3;
+    background-color: #fff;
+    margin: 10px 20px;
+    padding: 50px;
+}
+
+.pricing-section-info-card-title{
+    font-weight: bold;
+    unicode-bidi: isolate;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pricing-section-info-card-list{
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style-type: none;
+    box-sizing: border-box;
+
+}
+
+.pricing-section-info-card-item{
+    font-size: 16px;
+    display: block;
+    line-height: 40px;
+    text-align: left;
+}
+
+.pricing-section-info-card-price{
+    margin: 25px 10px 25px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pricing-section-info-card-btn{
+    color: #f53838;
+    font-weight: 700;
+    border-radius: 25px;
+    padding: 12px 0;
+    border: 2px solid #f53838;
+    max-width: 250px;
+    width: 100%;
+    display: inline-block;
+}
+
+.pricing-section-info-card-price-wrapper{
+    margin-top: auto;
+    display: inline-block;
+    width: 250px;
+    padding: 10px 20px
+}
+
+@media (max-width: 992px) {
+    .pricing-section-info_card-wapper{
+        flex-direction: column;
+        height: auto;
+    }
+}

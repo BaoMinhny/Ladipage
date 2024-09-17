@@ -1,0 +1,44 @@
+.global-section{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.global-section img {
+    width: 80%;
+    height: auto;
+}
+
+@media (max-width: 600px){
+    .sponsor-section img{
+        width: 95x;
+        height: 30px;
+    }
+}
+
+.global-section-title{
+    font-style: bold;
+    font-size: 30px;
+    color: #000;
+}
+
+.global-section-info{
+    margin: 0 60px;
+}
+.global-section-decription span{
+    font-weight: bold;
+    color: #000;
+    
+}
+
+.global-section-decription{
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+  
+}

@@ -1,0 +1,114 @@
+.footer {
+    display: flex;
+    background-color: #F8f8f8;
+    padding-top: 190px;
+    padding-bottom: 50px;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-section{
+    display: flex;
+
+    gap: 80px;
+    /* margin-bottom: auto;  */
+    padding: 0 20px;
+    -webkit-box-flex: 2;
+    align-items: center;
+    margin-top: auto;
+
+}
+
+.social-icons{
+    display: flex;
+    margin: 30px 0;
+    height:30px; 
+}
+
+
+
+.social-icon{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+
+.social-icon img{
+    height: 50%
+}
+
+
+.logo-container p{
+    font-size: 14px;
+    color: #4f5665;
+    line-height: 30px;
+}
+
+.logo-container {
+    margin-right: 200px;
+
+    max-width: 340px
+}
+
+.Footer-product{
+    flex:1;
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+.Footer-product ul{
+    display: block;
+    padding: 0;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+.Engage{
+    flex:1;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: auto
+}
+
+.Engage ul{
+    display: block;
+    padding: 0;
+    line-height: 35px;
+    margin-top: 10px;
+    margin-bottom: auto
+}
+.Earn-Money{
+    flex:1;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: auto
+}
+
+
+.Earn-Money ul{
+    display: block;
+    padding: 0;
+    line-height: 35px;
+}
+
+
+@media (max-width: 920px) {
+    .footer-section{
+        display: flex;
+        -webkit-box-orient: vertical;
+        flex-direction: column;
+        padding: 0 10px;
+        justify-content: left;
+        gap: 10px;
+    }
+}
